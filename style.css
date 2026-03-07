@@ -1,8 +1,9 @@
 body{
 font-family:Arial;
 background:#f5f5f5;
-margin:auto 100px;
+margin:auto;
 padding:20px;
+max-width:1100px;
 }
 
 
@@ -128,4 +129,80 @@ padding:20px;
 .no-job{
     text-align:center;
     display:none;
+}
+
+
+
+@media (max-width:768px){
+
+body{
+    margin: 10px;;
+    padding:10px;
+    max-width: 85%;
+}
+
+.header h1{
+    font-size:22px;
+    text-align:center;
+}
+
+.dashboard{
+    flex-direction:column;
+}
+
+.card{
+    width:100%;
+}
+
+.jobs-header{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:5px;
+}
+
+.tabs{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+}
+
+.tab{
+    padding:6px 10px;
+    font-size:14px;
+}
+
+.job-card{
+    padding:12px;
+}
+
+.company{
+    font-size:16px;
+}
+
+.position{
+    font-size:14px;
+}
+
+.info{
+    font-size:13px;
+}
+
+.desc{
+    font-size:13px;
+}
+
+.interview-btn,
+.reject-btn{
+    padding:6px 8px;
+    font-size:12px;
+}
+
+.delete-btn{
+    font-size:14px;
+}
+
+.no-job img{
+    width:120px;
+}
+
 }
