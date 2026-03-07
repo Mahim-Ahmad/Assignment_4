@@ -37,3 +37,36 @@ padding:20px;
 #rejected-count{
     color: rgb(182, 28, 28);
 }
+
+.jobs-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+    color: #250e90;
+}
+
+
+
+
+.tabs{
+    margin-bottom:20px;
+}
+
+.tab{
+    padding:8px 15px;
+    border:none;
+    background:#ddd;
+    cursor:pointer;
+    border-radius: 6px;
+}
+
+.tab.active{
+    background:rgb(8, 8, 232);
+    color:white;
+}
+
+.no-job{
+    text-align:center;
+    display:none;
+}
