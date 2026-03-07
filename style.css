@@ -38,6 +38,8 @@ padding:20px;
     color: rgb(182, 28, 28);
 }
 
+
+
 .jobs-header{
     display:flex;
     justify-content:space-between;
@@ -65,6 +67,63 @@ padding:20px;
     background:rgb(8, 8, 232);
     color:white;
 }
+
+
+
+.job-card{
+    background:white;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:6px;
+    position:relative;
+}
+
+
+.card-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.delete-btn{
+    border:none;
+    background:none;
+    cursor:pointer;
+    border: 1px solid #f0eaea;
+    color: #ff0000;
+}
+
+.company{
+    color: #1a0dab;
+}
+
+
+.status{
+    font-size:12px;
+    background:#eee;
+    padding:3px 6px;
+    border-radius:4px;
+    display:inline-block;
+    margin-bottom:8px;
+}
+.interview-btn{
+    background:#22c55e;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    margin-right:5px;
+    border-radius:4px;
+    cursor:pointer;
+}
+.reject-btn{
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
 
 .no-job{
     text-align:center;
